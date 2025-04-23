@@ -18,6 +18,10 @@ export default {
 			}
 		},
 		extend: {
+			fontFamily: {
+				sans: ['Inter', 'sans-serif'],
+				poppins: ['Poppins', 'sans-serif'],
+			},
 			colors: {
 				border: 'hsl(var(--border))',
 				input: 'hsl(var(--input))',
@@ -51,6 +55,20 @@ export default {
 				card: {
 					DEFAULT: 'hsl(var(--card))',
 					foreground: 'hsl(var(--card-foreground))'
+				},
+				navy: {
+					light: '#172a45',
+					DEFAULT: '#0a192f',
+					dark: '#020c1b',
+				},
+				slate: {
+					light: '#a8b2d1',
+					DEFAULT: '#8892b0',
+					dark: '#495670',
+				},
+				highlight: {
+					DEFAULT: '#64ffda',
+					dark: '#349780',
 				},
 				sidebar: {
 					DEFAULT: 'hsl(var(--sidebar-background))',
